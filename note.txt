@@ -1,0 +1,43 @@
+Note 1 : 
+	Goldorak.py et Goldorak.pyw contiennent le même code.
+	.py est attaché à python.exe ; .pyw est attaché à .pyw qui le reconnait comme tel et supress le shell.
+
+
+--------------------------------------------------------------------------------------------
+
+Disclaimer :
+	Goldorak.py n'est qu'une surcouche pour executer SelectDATXChannels "java"
+	On pourrait lancer ce dernier en batch, ce qui était fait dans la version initiale.
+	Goldorak.py permet juste de selectionner les éléments à passer à SelectDATXChannels.
+
+
+--------------------------------------------------------------------------------------------
+
+Les fonctionnalités de Goldorak.py(w) sont donc : 
+- IHM pour SelectDATXChannels
+- Stockage centralisé des dictionaire dans .cfg
+
+
+--------------------------------------------------------------------------------------------
+
+utilisation :
+- editer le .cfg à chaque campagne pour y ajouter le nouveau dictionnaire
+- executer Goldorak.pyw
+- choisir source + destination (avec le choisir)
+- cliquer sur Goldorak !
+
+
+--------------------------------------------------------------------------------------------
+
+axes d'amélioration : 
+
+- utiliser gooey (conda wxpython; pip gooey) [best]
+
+- ajouter btn stop goldo
+- ajouter la selection multiples de dossiers
+- ajouter les autres fonctionnalités définies dans le usage de SelectDATXChannels
+
+
+
+
+Dernière MaJ IHM : 20160318 - BERNAT
